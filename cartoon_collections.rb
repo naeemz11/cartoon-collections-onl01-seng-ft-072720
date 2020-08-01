@@ -24,7 +24,7 @@ end
   def find_the_cheese(cheese_type)
   
    
-   cheese_type.find do |cheese|
+   cheese_type.find { |cheese|
      cheese == "cheddar"
   end 
 end
